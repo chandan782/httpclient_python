@@ -16,6 +16,3 @@ class Config:
         for key, val in config_dict.item():
             setattr(config, key, val)   
         return config
-    
-        
-    
